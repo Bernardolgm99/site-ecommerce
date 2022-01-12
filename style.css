@@ -1,0 +1,115 @@
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255)
+}
+
+/* MENU REGION */
+header {
+    background-color: rgb(241, 119, 149);
+    height: 120px;
+    width: 100%;
+}
+
+#menu_bar {
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    width: 80%;
+    display: flex;
+    padding: 20px;
+    padding-top: 0px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu_bar .img_menu{
+    background-color: white;
+    padding: 10px;
+    border-right:4px solid black;
+    border-bottom:4px solid black;
+    border-left:4px solid black;
+}
+
+#menu_bar .navagation_bar{
+    background-color: black;
+    flex-grow: 1;
+    align-self: flex-end;
+}
+
+#menu_bar ul {
+    display: flex;
+}
+
+#menu_bar li {
+    text-align: center;
+    flex-grow: 1;
+    display: flex
+}
+
+#menu_bar li a {
+    padding: 10px;
+    flex-grow: 1;
+}
+
+#menu_bar li :hover{
+    background-color: rgb(230, 86, 122);
+}
+
+/* SLIDESHOW REGION */
+#slideshow{
+    width: 80%;
+    height:100px;
+}
+
+/* CATALOG SALES REGION*/
+#catalog_sales {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#catalog_sales .category {
+    position: relative;
+    flex: 0 1 500px;
+    margin: 0 auto;
+}
+
+#catalog_sales img{
+    max-width: 100%;
+    display: block;
+    border-radius: 8px;
+}
+
+#catalog_sales a {
+    border-radius: 5px;
+    position: absolute;
+    background-color: black;
+    border: 5px solid white;
+    padding: 20px;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#catalog_sales a:hover {
+    background-color: rgb(230, 86, 122);
+}
