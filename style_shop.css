@@ -28,6 +28,8 @@ header {
     z-index: 1;
     left: 0;
     right: 0;
+    margin-left: auto;
+    margin-right: auto;
     position: fixed;
     width: 80%;
     display: flex;
@@ -72,9 +74,7 @@ header {
 }
 
 #menu_bar li a {
-    font-size: 25px;
-    padding: 14px;
-    align-self: center;
+    padding: 10px;
     flex-grow: 1;
 }
 
@@ -84,19 +84,15 @@ header {
 }
 
 #menu_bar .check_out {
-    flex-direction: row-reverse;
-    align-items: center;
-}
-
-#menu_bar .check_out img {
-    margin-right: 5px;
+    background-color: black;
+    border: 3px solid white;
     padding: 6px;
     border-radius: 50px;
     align-self: end;
     position: relative;
 }
 
-#menu_bar .check_out img:hover {
+#menu_bar .check_out:hover {
     background-color: rgb(230, 86, 122);
 }
 
@@ -104,56 +100,4 @@ header {
 #slideshow{
     width: 80%;
     height:1000px;
-}
-
-/* CATALOG SALES REGION*/
-#catalog_sales {
-    width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-#catalog_sales .category {
-    position: relative;
-    flex: 0 1 500px;
-    margin: 20px;
-}
-
-#catalog_sales img{
-    max-width: 100%;
-    display: block;
-    border-radius: 8px;
-}
-
-#catalog_sales a {
-    border-radius: 5px;
-    position: absolute;
-    background-color: black;
-    border: 5px solid white;
-    padding: 20px;
-    color: white;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-#catalog_sales a:hover {
-    background-color: rgb(230, 86, 122);
-}
-
-#catalog_sales img{
-    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
-    transition: 1s;
-}
-
-#catalog_sales img {
-    display: block;
-    width: 100%;
-    border-radius: 5px;
-}
-
-#catalog_sales img:hover {
-    transform:scale(1.15);
-    z-index: -1;
 }
