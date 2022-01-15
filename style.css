@@ -83,20 +83,25 @@ header {
     border-radius: 16px;
 }
 
-#menu_bar .check_out {
+#menu_bar .check_out a {
+    padding: 0px;
+    display: flex;
     flex-direction: row-reverse;
     align-items: center;
+
 }
 
-#menu_bar .check_out img {
+#menu_bar .check_out a img {
     margin-right: 5px;
     padding: 6px;
     border-radius: 50px;
-    align-self: end;
-    position: relative;
 }
 
-#menu_bar .check_out img:hover {
+#menu_bar .check_out a:hover{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#menu_bar .check_out a img:hover {
     background-color: rgb(230, 86, 122);
 }
 
