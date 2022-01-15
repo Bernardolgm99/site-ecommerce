@@ -28,8 +28,6 @@ header {
     z-index: 1;
     left: 0;
     right: 0;
-    margin-left: auto;
-    margin-right: auto;
     position: fixed;
     width: 80%;
     display: flex;
@@ -74,7 +72,9 @@ header {
 }
 
 #menu_bar li a {
-    padding: 10px;
+    font-size: 25px;
+    padding: 14px;
+    align-self: center;
     flex-grow: 1;
 }
 
@@ -84,13 +84,17 @@ header {
 }
 
 #menu_bar .check_out {
-    background-color: black;
-    border: 3px solid white;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+#menu_bar .check_out img {
+    margin-right: 5px;
     padding: 6px;
     border-radius: 50px;
 }
 
-#menu_bar .check_out:hover {
+#menu_bar .check_out img:hover {
     background-color: rgb(230, 86, 122);
 }
 
