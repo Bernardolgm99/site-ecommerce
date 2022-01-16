@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Dongle&family=Parisienne&display=swap');
 
+=======
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+>>>>>>> 35c2b63f1b871006042ea9ec15f75049deea6608
 body, ul, li, p {
     margin: 0px;
     padding: 0px;
@@ -19,12 +24,15 @@ body {
     font-family: 'Dongle', sans-serif;
 }
 
+<<<<<<< HEAD
 h1 {
     font-family: 'Parisienne', cursive;
     font-size: 50px;
     width: 65%;
     text-align: center;
 }
+=======
+>>>>>>> 35c2b63f1b871006042ea9ec15f75049deea6608
 
 a {
     text-decoration: none;
@@ -121,6 +129,16 @@ header {
     background-color: rgb(172, 97, 122);
 }
 
+/* SLOGAN */
+
+#slogan {
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    font-family: 'Parisienne', cursive;
+    text-align: center;
+}
+
 /* HIGHLIGHT REGION */
 .region {
     width: 100%;
@@ -210,6 +228,8 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 55px;
+    margin-top: 45px;
 }
 
 #catalog_sales .category {
@@ -283,7 +303,7 @@ footer {
 }
 
 #facebook img:hover {
-    background-color: #0051ff;
+    background-color: white;
 }
 
 #twitter img:hover {
@@ -291,7 +311,7 @@ footer {
 }
 
 #instagram img:hover {
-    background-color: #ff00ff;
+    background-color: #ff0095;
 }
 
 #youtube img:hover {
@@ -306,6 +326,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-bottom: 40px;
 }
 
 .copyright {
@@ -325,6 +346,7 @@ footer {
 }
 
 .social_media {
+margin-top: 30\px;
     display: flex;
     justify-content: center;
 }
