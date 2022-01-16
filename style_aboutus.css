@@ -28,8 +28,6 @@ header {
     z-index: 1;
     left: 0;
     right: 0;
-    margin-left: auto;
-    margin-right: auto;
     position: fixed;
     width: 80%;
     display: flex;
@@ -74,7 +72,9 @@ header {
 }
 
 #menu_bar li a {
-    padding: 10px;
+    font-size: 25px;
+    padding: 14px;
+    align-self: center;
     flex-grow: 1;
 }
 
@@ -83,21 +83,45 @@ header {
     border-radius: 16px;
 }
 
-#menu_bar .check_out {
-    background-color: black;
-    border: 3px solid white;
-    padding: 6px;
-    border-radius: 50px;
-    align-self: end;
-    position: relative;
+#menu_bar .check_out a {
+    padding: 0px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+
 }
 
-#menu_bar .check_out:hover {
+#menu_bar .check_out a img {
+    margin-right: 5px;
+    padding: 6px;
+    border-radius: 50px;
+}
+
+#menu_bar .check_out a:hover{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#menu_bar .check_out a img:hover {
     background-color: rgb(230, 86, 122);
 }
 
-/* SLIDESHOW REGION */
-#slideshow{
+article {
+    background-color: rgb(230, 86, 122, 0.7);
     width: 80%;
-    height:1000px;
+    margin: auto;
+    padding: 5%;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px 10px rgb(0, 0, 0);
+}
+
+article h1 {
+    display: flex;
+    justify-content: center;
+    height: 60%;
+}
+
+.about_us{
+    display: flex;
+    height: 80vh;
+    align-items: center;
 }

@@ -7,6 +7,7 @@ body, ul, li, p {
 }
 
 body {
+    background-color: rgb(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -161,4 +162,66 @@ header {
 #catalog_sales img:hover {
     transform:scale(1.15);
     z-index: -1;
+}
+
+footer {
+    width: 100%;
+    height: 18vh;
+    background-color: rgb(241, 119, 149);
+}
+
+.social_media img{
+    background-color: rgb(230, 86, 122);
+    border: 5px solid rgb(230, 86, 122);
+    border-radius: 80%;
+}
+
+.copy_txt {
+    display: flex;
+    flex-direction: row;
+    width: 20.5%;
+    height: 15%;
+    justify-content: space-evenly;
+}
+
+.copyright {
+    display: flex;
+    width: 25%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.copyright a{
+    color: black;
+}
+
+.copyright a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.social_media {
+    width: 99%;
+    height: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.payment {
+    display: flex;
+    width: 97%;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.payment img {
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 15px;
+}
+
+.social_media img:hover {
+    box-shadow: 0 0 10px 2px white;
 }
