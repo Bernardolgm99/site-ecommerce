@@ -27,7 +27,7 @@ article {
 }
 
 .container {
-    background-color: rgb(255, 139, 151);
+    background-color: rgb(255, 139, 151, 0.5);
     margin-top: -250px;
     padding-top: 280px;
     border-radius: 50px;
