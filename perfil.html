@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="style_perfil.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <nav id="menu_bar">
@@ -30,94 +32,105 @@
             </div>
         </nav>
     </header>
-         <article>
-             <div class="image">
-                 <img src="galery/pfp.jpg" width="500" height="500">
-             </div>
-            <div class="container">
-                <div class="board">
-                    <div id="first_name">
-                        <p><strong>First Name: </strong> Keanu</p>
-                    </div>
-                    <div id="second_name">
-                        <p><strong>Last Name: </strong> Reeves</p>
-                    </div>
+    <article>
+        <div class="image">
+            <img src="galery/pfp.jpg" width="500" height="500">
+        </div>
+        <div class="container">
+            <div class="board">
+                <div class="first_name">
+                    First Name:
+                    <br>
+                    <input type="text" id="fname" value="Keanu" name="fname">
                 </div>
-                <div class="board2">
-                    <div id="email">
-                        <p><strong>Email: </strong> keanureeves@gmail.com</p>
-                    </div>
-                </div>
-                <div class="board3">
-                    <div id="birthdate">
-                        <p><strong>Birthdate: </strong> 02/09/1964</p>
-                    </div>
-                    <div id="bought_items">
-                        <p><strong>Promotions avaiable: </strong> 7</p>
-                    </div>
-                </div>
-                <div>
-                    <div id="address">
-                        <p><strong>Address: </strong> 83466 Blick Expressway</p>
-                    </div>
-                    <div id="city">
-                        <p><strong>City: </strong> Yambol</p>
-                    </div>
-                    <div id="country">
-                        <p><strong>Country: </strong> Bulgaria</p>
-                    </div>
-                </div>
-                <div class="board7">
-                    <input type="button" id="btn_pw" value="Change Password">
+                <div class="second_name">
+                    Last Name:
+                    <br>
+                    <input type="text" id="lname" value="Reeves" name="lname">
                 </div>
             </div>
-        </article>
-        <footer>
-            <div id="footer">
-                <div class="social_media">
-                    <div id="facebook">
-                        <a href="#">
-                            <img src="galery/facebook.png" width="40" height="40">
-                        </a>
-                    </div>
-                    <div id="twitter">
-                        <a href="#">
-                            <img src="galery/twitter.png" width="41" height="41">
-                        </a>
-                    </div>
-                    <div id="instagram">
-                        <a href="#">
-                            <img src="galery/instagram.png" width="40" height="40">
-                        </a>
-                    </div>
-                    <div id="youtube">
-                        <a href="#">
-                            <img src="galery/youtube.png" width="40" height="40">
-                        </a>
-                    </div>
-                    <div id="whatsapp">
-                        <a href="#">
-                            <img src="galery/whatsapp.png" width="40" height="40">
-                        </a>
-                    </div>
-                </div>
-                <div class="payment">
-                    <img src="galery/pagamento.png" width="175" height="45">
-                </div>
-                <div class="copyright">
-                    <a href="https://www.termsfeed.com/blog/sample-copyright-notices/">Privacy Policy</a>
-                    -
-                    <a href="https://www.termsfeed.com/blog/sample-copyright-notices/">Terms of use</a>
-                    -
-                    <a href="https://www.termsfeed.com/blog/sample-copyright-notices/">Accessibility</a>
-                    -
-                    <a href="feedback.html">Feedback</a>
-                </div>
-                <div class="copy_txt">
-                    &#169; 2022 Drink'O'City, Inc. All rights reserved.
+            <div class="board2">
+                <div class="email">
+                    Email:
+                    <br>
+                    <input type="email" id="email" value="keanureeves@gmail.com" name="email">
                 </div>
             </div>
-        </footer>
-    
+            <div class="board3">
+                <div class="birthdate">
+                    Birthdate:
+                    <br>
+                    <input type="text" id="birthdate" value="02/09/1964" name="birthdate" disabled>
+                </div>
+                <div class="address">
+                    Address:
+                    <br>
+                    <input type="text" id="address" value="83466 Blick Expressway" name="address">
+                </div>
+                <div class="city">
+                    City:
+                    <br>
+                    <input type="text" id="city" value="Yambol" name="city">
+                </div>
+                <div class="country">
+                    Country:
+                    <br>
+                    <input type="text" id="country" value="Bulgaria" name="country">
+                </div>
+            </div>
+            <div class="board4">
+                <input type="submit" id="changes" value="Keep Changes">
+                <input type="button" id="reset" value="Reset">
+            </div>
+        </div>
+    </article>
+    <footer>
+        <div id="footer">
+            <div class="social_media">
+                <div id="facebook">
+                    <a href="#">
+                        <img src="galery/facebook.png" width="40" height="40">
+                    </a>
+                </div>
+                <div id="twitter">
+                    <a href="#">
+                        <img src="galery/twitter.png" width="41" height="41">
+                    </a>
+                </div>
+                <div id="instagram">
+                    <a href="#">
+                        <img src="galery/instagram.png" width="40" height="40">
+                    </a>
+                </div>
+                <div id="youtube">
+                    <a href="#">
+                        <img src="galery/youtube.png" width="40" height="40">
+                    </a>
+                </div>
+                <div id="whatsapp">
+                    <a href="#">
+                        <img src="galery/whatsapp.png" width="40" height="40">
+                    </a>
+                </div>
+            </div>
+            <div class="payment">
+                <img src="galery/pagamento.png" width="175" height="45">
+            </div>
+            <div class="copyright">
+                <a href="https://www.termsfeed.com/blog/sample-copyright-notices/">Privacy Policy</a>
+                -
+                <a href="https://www.termsfeed.com/blog/sample-copyright-notices/">Terms of use</a>
+                -
+                <a href="https://www.termsfeed.com/blog/sample-copyright-notices/">Accessibility</a>
+                -
+                <a href="feedback.html">Feedback</a>
+            </div>
+            <div class="copy_txt">
+                &#169; 2022 Drink'O'City, Inc. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
 </body>
+
 </html>
