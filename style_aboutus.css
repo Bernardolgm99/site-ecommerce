@@ -11,11 +11,11 @@ body {
 }
 
 article {
-    background-color: rgb(230, 86, 122, 0.7);
+    background-color: rgb(255, 194, 208, 0.877);
     width: 80%;
-    border-radius: 20px;
-    box-shadow: 0px 0px 25px 1px rgb(0, 0, 0);
-    background: rgb(255, 158, 168) url("galery/coffee.webp") no-repeat 95% 85%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 25px 1px rgb(116, 116, 116);
+    background: rgba(255, 216, 225, 0.9);
     margin: 50px;
 }
 
@@ -24,7 +24,11 @@ article div{
 }
 
 article p {
-    font-size: 40px;
+    font-size: 35px;
+}
+
+center {
+    font-size: 35px;
 }
 
 h1 {
