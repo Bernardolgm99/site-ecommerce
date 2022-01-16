@@ -1,16 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+
 body, ul, li, p {
     margin: 0px;
     padding: 0px;
     list-style: none;
     font-size: 1.2rem;
-    font-family: Arial
 }
+
+
 
 body {
     background-color: rgb(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Dongle', sans-serif;
 }
 
 a {
@@ -30,7 +34,7 @@ header {
     left: 0;
     right: 0;
     position: fixed;
-    width: 80%;
+    width: 75%;
     display: flex;
     padding: 20px;
     padding-top: 0px;
@@ -106,15 +110,81 @@ header {
     background-color: rgb(230, 86, 122);
 }
 
-/* SLIDESHOW REGION */
-#slideshow{
-    width: 80%;
-    height:1000px;
+/* HIGHLIGHT REGION */
+.region {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    font-size: 60px;
+    margin: 5px;
+}
+
+
+
+#highlight{
+    margin: auto;
+    padding-bottom: 30px;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    row-gap: 30px;
+}
+
+#highlight .highlight_product {
+    background-color: rgb(214, 107, 134);
+    border-radius: 5px;
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#highlight .img_product {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#highlight .img_product img {
+    height: 150px;
+    width: 150px;
+    border: 5px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+#highlight .title_product {
+    background-color: rgba(0, 0, 0, 0.85);
+    width: 160px;
+    border-radius: 12px;
+    padding-top: 3.5px;
+    font-size: 25px;
+    color: white;
+}
+
+#highlight .description_product {
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 160px;
+    color: rgb(255, 255, 255);
+    border-radius: 12px;
+    margin-bottom: 5px;
+}
+
+#highlight .description_product p {
+    line-height: 18px;
+    padding: 5px;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* CATALOG SALES REGION*/
 #catalog_sales {
-    width: 80%;
+    width: 75%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -122,7 +192,7 @@ header {
 
 #catalog_sales .category {
     position: relative;
-    flex: 0 1 500px;
+    flex: 0 1 400px;
     margin: 20px;
 }
 

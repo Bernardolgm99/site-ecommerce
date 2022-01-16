@@ -1,33 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style_signin.css">
+    <title>Login</title>
 </head>
+
 <body>
-    <header>
-        <nav id="menu_bar">
-            <div class="img_menu glow block">
-                <a href="index.html">
-                <img src="galery/logo-site.png" width="50" height="50">
-                </a>
-            </div>
-            <div class="navagation_bar">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="shop.html">Shop</a></li>
-                    <li><a href="sales.html">Sale</a></li>
-                    <li><a href="about_us.html">About Us</a></li>
-                    <li><a href="signin.html">Sign In</a></li>
-                </ul>
-            </div>
-            <a href="checkout.html">
-            <div class="check_out"><img src="galery/coffee-beans-white.jpg" height="45" width="45"></div>
-            </a>
-        </nav>
-    </header>
+    <div id="login">
+        <img src="galery/logo-site.png">
+        <h1>Sing In</h1>
+        <form>
+            <input type="email" data-initial-value="" placeholder="Email" id="user" name="user">
+            <br><br>
+            <input type="text" placeholder="Passaword" id="passaword" name="passaword">
+            <p>Not your computer? Use a private browsing window to sign in. <a
+                    href="https://support.google.com/accounts?p=signin_privatebrowsing&hl=en">Learn more</a></p>
+            <a href="#">Sing Up</a>
+            <input type="button" id="btn_login" value="Login">
+        </form>
+    </div>
 </body>
+
 </html>
