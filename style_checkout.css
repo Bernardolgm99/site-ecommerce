@@ -1,0 +1,38 @@
+article {
+    width: 80%;
+    margin: auto;
+}
+
+
+table {
+    width: 100%;
+    background: black;
+    color: white;
+    text-align: center;
+    border-collapse: collapse;
+    font-size:25px;
+}
+
+table tbody tr {
+    border-top: 1px solid white;
+}
+
+
+table tbody tr:first-child th {
+    background-color: rgb(230, 86, 122);
+    height: 60px;
+}
+    
+table tbody tr:first-child th:first-child {
+    width: 10%;
+}
+
+table tbody tr:first-child th:last-child {
+    width: 15%;
+}
+
+
+
+table img {
+    height:180px;
+}
