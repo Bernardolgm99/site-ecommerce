@@ -3,17 +3,26 @@ article {
     width: 80%;
     margin: auto;
     padding: 5%;
-    border-radius: 50px;
-    box-shadow: 0px 0px 20px 10px rgb(0, 0, 0);
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px 1px rgb(0, 0, 0);
+    background: rgb(255, 158, 168) url("galery/coffee.webp") no-repeat bottom right;
 }
 
-article h1 {
-    display: flex;
-    justify-content: center;
+article p {
+    font-size: 40px;
+}
+
+h1 {
+    font-size: 120px;
+    text-align: left;
+}
+
+span {
+    font-size: 80px;
 }
 
 .about_us{
     display: flex;
-    height: 80vh;
+    height: 120vh;
     align-items: center;
 }

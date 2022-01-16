@@ -7,8 +7,6 @@ body, ul, li, p {
     font-size: 1.2rem;
 }
 
-
-
 body {
     background-color: rgb(0, 0, 0, 0.1);
     display: flex;
@@ -24,7 +22,7 @@ a {
 
 /* MENU REGION */
 header {
-    background-color: rgb(241, 119, 149);
+    background-color: rgb(255, 158, 168);
     height: 120px;
     width: 100%;
 }
@@ -121,8 +119,6 @@ h2 {
     font-size: 60px;
     margin: 5px;
 }
-
-
 
 #highlight{
     margin: auto;
@@ -237,13 +233,13 @@ h2 {
 footer {
     width: 100%;
     height: 18vh;
-    background-color: rgb(241, 119, 149);
+    background-color: rgb(255, 158, 168);
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .social_media img{
     background-color: rgb(230, 86, 122);
-    border: 5px solid rgb(230, 86, 122);
+    margin: 5px;
     border-radius: 80%;
 }
 
@@ -258,6 +254,7 @@ footer {
 .copyright {
     display: flex;
     width: 25%;
+    height: auto;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: flex-start;
