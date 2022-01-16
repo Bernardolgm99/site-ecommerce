@@ -19,6 +19,7 @@ body {
     font-family: 'Dongle', sans-serif;
 }
 
+
 a {
     text-decoration: none;
     color: rgb(255, 255, 255)
@@ -33,7 +34,7 @@ header {
 }
 
 #menu_bar {
-    z-index: 1;
+    z-index: 2;
     left: 0;
     right: 0;
     position: fixed;
@@ -288,7 +289,7 @@ footer {
 }
 
 #facebook img:hover {
-    background-color: #0051ff;
+    background-color: white;
 }
 
 #twitter img:hover {
