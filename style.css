@@ -13,6 +13,7 @@ body {
     flex-direction: column;
     align-items: center;
     font-family: 'Dongle', sans-serif;
+    background-image: url("galery/background.png");
 }
 
 a {
@@ -22,8 +23,9 @@ a {
 
 /* MENU REGION */
 header {
-    background-color: rgb(255, 158, 168);
-    height: 120px;
+    background-color: rgba(255, 195, 209, 0.952);
+    box-shadow: 0px 0px 25px 1px rgb(134, 134, 134);
+    height: 130px;
     width: 100%;
 }
 
@@ -43,24 +45,27 @@ header {
 
 #menu_bar .img_menu{
     background-color: white;
-    padding: 10px;
-    border-right:4px solid black;
-    border-bottom:4px solid black;
-    border-left:4px solid black;
-    border-bottom-left-radius: 18px;
-    border-bottom-right-radius: 18px;
+    padding: 15px;
+    border-right:3px solid black;
+    border-bottom:3px solid black;
+    border-left:3px solid black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     margin-right: 3px;
 }
 
 #menu_bar .img_menu:hover{
-    background-color: rgb(230, 86, 122);
+    background-color: rgb(172, 97, 122)
 }
 
 #menu_bar .navagation_bar{
     background-color: black;
     flex-grow: 1;
     align-self: flex-end;
-    border-radius: 18px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 #menu_bar ul {
@@ -75,15 +80,15 @@ header {
 }
 
 #menu_bar li a {
-    font-size: 25px;
+    font-size: 27px;
     padding: 14px;
     align-self: center;
     flex-grow: 1;
 }
 
 #menu_bar li :hover{
-    background-color: rgb(230, 86, 122);
-    border-radius: 16px;
+    background-color: rgb(172, 97, 122);
+    border-radius: 10px;
 }
 
 #menu_bar .check_out a {
@@ -103,7 +108,7 @@ header {
 }
 
 #menu_bar .check_out a img:hover {
-    background-color: rgb(230, 86, 122);
+    background-color: rgb(172, 97, 122);
 }
 
 /* HIGHLIGHT REGION */
@@ -115,7 +120,8 @@ header {
 
 h2 {
     font-size: 60px;
-    margin: 5px;
+    margin-top: 55px;
+    margin-bottom: 20px;
 }
 
 #highlight {
@@ -132,16 +138,17 @@ h2 {
 .highlight_product {
     text-align: center;
     width:25%;
-    background: linear-gradient(to bottom right, white calc(50% - 1px), rgb(230, 86, 122), rgb(255, 158, 168)  calc(50% + 1px) );
-    color: black;
+    background: linear-gradient(to bottom right, rgb(255, 240, 240) calc(50% - 1px), rgb(255, 255, 255), rgb(255, 195, 209, 0.952)  calc(50% + 1px) );
+    color: rgb(0, 0, 0);
     background-color: white;
-    border-radius: 10px;
+    border-radius: 7px;
     display: flex;
     flex-direction: column;
     width: 250px;
     font-size: 30px;
-    box-shadow: -2px -2px 20px 2px black;
+    box-shadow: -2px -2px 20px 2px rgb(163, 163, 163);
     transition: 1s;
+    margin-bottom: 35px;
 }
 
 .highlight_product:hover {
@@ -181,7 +188,7 @@ h2 {
 }
 
 .highlight_product button:hover {
-    background-color: rgb(230, 86, 122);
+    background-color: rgb(172, 97, 122);
 }
 
 .highlight_product button:active {
@@ -245,7 +252,8 @@ h2 {
 footer {
     width: 100%;
     height: auto;
-    background-color: rgb(255, 158, 168);
+    background-color: rgba(255, 181, 198, 0.973);
+    box-shadow: 0px 0px 25px 1px rgb(134, 134, 134);
     font-family: Arial, Helvetica, sans-serif;
 }
 
