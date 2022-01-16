@@ -1,11 +1,17 @@
+body {
+    flex-direction: column;
+}
+
 article {
     background-color: rgb(230, 86, 122, 0.7);
     width: 80%;
-    margin: auto;
-    padding: 5%;
     border-radius: 20px;
     box-shadow: 0px 0px 25px 1px rgb(0, 0, 0);
     background: rgb(255, 158, 168) url("galery/coffee.webp") no-repeat bottom right;
+}
+
+article div{
+    padding: 50px;
 }
 
 article p {
@@ -19,10 +25,4 @@ h1 {
 
 span {
     font-size: 80px;
-}
-
-.about_us{
-    display: flex;
-    height: 120vh;
-    align-items: center;
 }

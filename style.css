@@ -34,8 +34,8 @@ header {
     position: fixed;
     width: 75%;
     display: flex;
-    padding: 20px;
-    padding-top: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
@@ -120,7 +120,7 @@ h2 {
     margin: 5px;
 }
 
-#highlight{
+#highlight {
     margin: auto;
     padding-bottom: 30px;
     width: 75%;
@@ -129,55 +129,66 @@ h2 {
     align-items: center;
     justify-content: space-around;
     row-gap: 30px;
+    
 }
 
-#highlight .highlight_product {
-    background-color: rgb(214, 107, 134);
-    border-radius: 5px;
-    width: 170px;
+.highlight_product {
+    width:25%;
+    background: linear-gradient(to bottom right, white calc(50% - 1px), rgb(230, 86, 122), rgb(255, 158, 168)  calc(50% + 1px) );
+    color: black;
+    background-color: white;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    width: 250px;
+    font-size: 30px;
+    box-shadow: -2px -2px 20px 2px black;
+    transition: 1s;
 }
 
-#highlight .img_product {
-    margin-top: 5px;
-    margin-bottom: 5px;
+.highlight_product:hover {
+    transform:scale(1.1);
 }
 
-#highlight .img_product img {
-    height: 150px;
-    width: 150px;
-    border: 5px solid rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-}
-
-#highlight .title_product {
-    background-color: rgba(0, 0, 0, 0.85);
-    width: 160px;
-    border-radius: 12px;
-    padding-top: 3.5px;
+.highlight_product p {
     font-size: 25px;
-    color: white;
+    line-height: 10px;
 }
 
-#highlight .description_product {
-    font-size: 15px;
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 160px;
-    color: rgb(255, 255, 255);
-    border-radius: 12px;
-    margin-bottom: 5px;
+.img_product {
+    height: 200px;
 }
 
-#highlight .description_product p {
-    line-height: 18px;
-    padding: 5px;
-    font-size: 12px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.img_product img{
+    height: 200px;
 }
 
+.highlight_product button {
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid black;
+    box-shadow: 0px 3px 10px 0.1px black;
+}
+
+.highlight_product button img {
+    height: 25px;
+}
+
+.highlight_product button:hover {
+    background-color: rgb(230, 86, 122);
+}
+
+.highlight_product button:active {
+    transform: translateY(2px);
+}
 /* CATALOG SALES REGION*/
 #catalog_sales {
     width: 75%;
@@ -230,34 +241,64 @@ h2 {
     z-index: -1;
 }
 
+
+/*FOOTER REGION */
+
 footer {
+    margin-top: 100px;
     width: 100%;
-    height: 18vh;
+    height: auto;
     background-color: rgb(255, 158, 168);
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.social_media img{
-    background-color: rgb(230, 86, 122);
+#footer {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    row-gap: 10px;
+}
+
+.social_media img {
     margin: 5px;
-    border-radius: 80%;
+    border-radius: 100%;
+}
+
+#facebook img:hover {
+    background-color: #0051ff;
+}
+
+#twitter img:hover {
+    background-color: #00b7ff;
+}
+
+#instagram img:hover {
+    background-color: #ff00ff;
+}
+
+#youtube img:hover {
+    background-color: #ff0800;
+}
+
+#whatsapp img:hover {
+    background-color: #1eff00;
 }
 
 .copy_txt {
     display: flex;
     flex-direction: row;
-    width: 20.5%;
-    height: 15%;
     justify-content: space-evenly;
 }
 
 .copyright {
+    margin-bottom: 20px;
     display: flex;
-    width: 25%;
-    height: auto;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: flex-start;
+    width: 100%;
+    justify-content: center;
+    column-gap: 20px;
 }
 
 .copyright a{
@@ -265,31 +306,10 @@ footer {
 }
 
 .copyright a:hover {
-    color: white;
     text-decoration: underline;
 }
 
 .social_media {
-    width: 99%;
-    height: 40%;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
-
-.payment {
-    display: flex;
-    width: 97%;
-    justify-content: flex-end;
-    align-items: flex-start;
-}
-
-.payment img {
-    background-color: white;
-    border: 5px solid white;
-    border-radius: 15px;
-}
-
-.social_media img:hover {
-    box-shadow: 0 0 10px 2px white;
+    justify-content: center;
 }
