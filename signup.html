@@ -13,15 +13,20 @@
 <body>
     <div id="login">
         <a href="index.html"><img src="galery/logo-site.png"></a>
-        <h1>Sing In</h1>
+        <h1>Sing Up</h1>
         <form>
-            <input type="email" data-initial-value="" placeholder="Email" id="user" name="user" required>
+            <input type="text" data-initial-value="" placeholder="First Name" id="fname" name="fname" required>
+            <input type="text" data-initial-value="" placeholder="Second Name" id="lname" name="lname" required>
+            <br><br>
+            <input type="email" data-initial-value="" placeholder="Email" id="email" name="email" required>
             <br><br>
             <input type="password" placeholder="Password" id="password" name="password" required>
+            <br>
+            <input type="password" placeholder="Confirm passaword" id="password" name="password" required>
             <p>Not your computer? Use a private browsing window to sign in. <a
                     href="https://support.google.com/accounts?p=signin_privatebrowsing&hl=en">Learn more</a></p>
-            <a href="singup.html">Sing Up</a>
-            <input type="submit" id="btn_login" value="Login">
+            You aready have account? <a href="#">Sing In</a>
+            <input type="submit" id="btn_login" value="Create account">
         </form>
     </div>
 </body>
