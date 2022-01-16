@@ -267,7 +267,7 @@ h2 {
 footer {
     width: 100%;
     height: auto;
-    background-color: rgba(255, 181, 198, 0.973);
+    background-color: rgba(255, 181, 198, 0.842);
     box-shadow: 0px 0px 25px 1px rgb(134, 134, 134);
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -304,7 +304,7 @@ footer {
 }
 
 #whatsapp img:hover {
-    background-color: #1eff00;
+    background-color: #5fc052;
 }
 
 .copy_txt {
