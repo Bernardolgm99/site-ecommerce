@@ -91,13 +91,11 @@ header {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-
+    width: 0px;
 }
 
 #menu_bar .check_out a img {
-    margin-right: 5px;
-    padding: 6px;
-    border-radius: 50px;
+    padding: 12px;
 }
 
 #menu_bar .check_out a:hover{
