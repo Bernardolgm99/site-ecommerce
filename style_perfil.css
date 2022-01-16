@@ -1,0 +1,109 @@
+body {
+    background-color: rgb(0, 0, 0, 0.1);
+    background-image: url("galery/background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Dongle', sans-serif;
+}
+
+article {
+    display: flex;
+    width: 80%;
+    height: 170vh;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgb(255, 139, 151);
+    margin-top: -250px;
+    width: 80%;
+    height: 120vh;
+    z-index: -1;
+    border-radius: 50px;
+    box-shadow: 0px 0px 30px 1px black;
+}
+
+.image img{
+    border-radius: 80%;
+    margin-top: 30px;
+    box-shadow: 0px 0px 30px 20px white;
+    z-index: 2;
+}
+
+.container p {
+    font-size: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.board {
+    display: flex;
+    margin-top: 300px;
+    align-items: flex-start;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.board2 {
+    display: flex;
+    margin-top: 75px;
+    width: 100%;
+    justify-content: center;
+}
+
+.board3 {
+    display: flex;
+    margin-top: 75px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.board4 {
+    display: flex;
+    margin-top: 75px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.board7 {
+    margin-top: 75px;
+}
+
+#btn_pw {
+    box-sizing: border-box;
+    padding: 25px;
+    font-size: 40px;
+    font-family: 'Dongle', sans-serif;
+    border-radius: 30px;
+    border: 3px solid #ccc;
+    outline: none;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    padding: 12px 20px;
+}
+
+#btn_pw[type="button"]:hover {
+    border: 3px solid rgb(230,86,122);
+}
+
+#btn_pw[type="button"]:focus {
+    border: 3px solid rgb(230,86,122);
+}
+
+#btn_pw[type="button"]:focus {
+    background-color: rgb(230,86,122,0.7);
+}
