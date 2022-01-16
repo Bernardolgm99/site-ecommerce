@@ -9,11 +9,14 @@ body, ul, li, p {
 
 body {
     background-color: rgb(0, 0, 0, 0.1);
+    background-image: url("galery/background_20.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: 'Dongle', sans-serif;
-    background-image: url("galery/background.png");
 }
 
 a {
@@ -194,7 +197,7 @@ h2 {
 .highlight_product button:active {
     transform: translateY(2px);
 }
-/* CATALOG SALES REGION*/
+/* CATALOG REGION*/
 #catalog_sales {
     width: 75%;
     display: flex;
@@ -227,7 +230,7 @@ h2 {
 }
 
 #catalog_sales a:hover {
-    background-color: rgb(230, 86, 122);
+    background-color: rgb(172, 97, 122);
 }
 
 #catalog_sales img{
