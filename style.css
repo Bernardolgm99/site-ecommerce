@@ -129,10 +129,10 @@ h2 {
     align-items: center;
     justify-content: space-around;
     row-gap: 30px;
-    
 }
 
 .highlight_product {
+    text-align: center;
     width:25%;
     background: linear-gradient(to bottom right, white calc(50% - 1px), rgb(230, 86, 122), rgb(255, 158, 168)  calc(50% + 1px) );
     color: black;
@@ -245,7 +245,6 @@ h2 {
 /*FOOTER REGION */
 
 footer {
-    margin-top: 100px;
     width: 100%;
     height: auto;
     background-color: rgb(255, 158, 168);

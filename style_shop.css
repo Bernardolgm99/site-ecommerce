@@ -1,4 +1,47 @@
+.conteiner {
+    width: 77%;
+    display: flex;
+}
+
+
+aside {
+    width: 23%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    color: white;
+}
+
+aside div {
+    display: flex;
+    column-gap: 10px;
+    align-content: center;
+    padding-left: 30px;
+}
+
+aside div:first-child {
+    padding: 30px;
+    padding-bottom: 0px;
+    justify-content: center;
+}
+
+aside input[type=search] {
+    border-radius: 5px;
+    border: 1px solid black;
+    transition: 0.1s;
+}
+
+
 article {
-    height: 120vh;
-    width: 100%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 30px;
+}
+
+article a {
+    height: auto;
 }
