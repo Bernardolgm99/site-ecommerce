@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_signin.css">
+    <link rel="stylesheet" href="style_feedback.css">
+    <title>Feedback Form</title>
+</head>
+
+<body>
+    <div id="login">
+        <a href="index.html"><img src="galery/logo-site.png"></a>
+        <h1>Feedback</h1>
+        <form>
+            <div id="grid">
+                <span></span>
+                <span>Very Satisfied</span>
+                <span>Satisfied</span>
+                <span>Neutral</span>
+                <span>Unsatisfied</span>
+                <span>Very Unsatisfied</span>
+                <span>How satisfied are you with our product?</span>
+                <div class="grid-item"><input type="radio" name="product" value="verySatisfied"></div>
+                <div class="grid-item"><input type="radio" name="product" value="satisfied"></div>
+                <div class="grid-item"><input type="radio" name="product" value="neutral"></div>
+                <div class="grid-item"><input type="radio" name="product" value="unsatisfied"></div>
+                <div class="grid-item"><input type="radio" name="product" value="veryUnsatisfied"></div>
+                <span>How satisfied are you with our service?</span>
+                <div class="grid-item"><input type="radio" name="service" value="verySatisfied"></div>
+                <div class="grid-item"><input type="radio" name="service" value="satisfied"></div>
+                <div class="grid-item"><input type="radio" name="service" value="neutral"></div>
+                <div class="grid-item"><input type="radio" name="service" value="unsatisfied"></div>
+                <div class="grid-item"><input type="radio" name="service" value="veryUnsatisfied"></div>
+                <span>How satisfied are you with our team?</span>
+                <div class="grid-item"><input type="radio" name="team" value="verySatisfied"></div>
+                <div class="grid-item"><input type="radio" name="team" value="satisfied"></div>
+                <div class="grid-item"><input type="radio" name="team" value="neutral"></div>
+                <div class="grid-item"><input type="radio" name="team" value="unsatisfied"></div>
+                <div class="grid-item"><input type="radio" name="team" value="veryUnsatisfied"></div>
+            </div>
+            <br><br>
+            <textarea placeholder="Tell us how we can improve" id="improve"></textarea>
+            <br><br>
+            <p>Would you like a representative to contact you? <span style="color:red">*</span></p>
+            <div class="contact">
+                <input type="radio" name="contact" value="yes" required>
+                <label for="contact">Yes</label>
+                <input type="radio" name="contact" value="no" required>
+                <label for="contact">No</label>
+            </div>
+            <br>
+            <input type="submit" id="btn_login" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>

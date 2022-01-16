@@ -7,7 +7,7 @@ article {
     width: 80%;
     border-radius: 20px;
     box-shadow: 0px 0px 25px 1px rgb(0, 0, 0);
-    background: rgb(255, 158, 168) url("galery/coffee.webp") no-repeat bottom right;
+    background: rgb(255, 158, 168) url("galery/coffee.webp") no-repeat 95% 85%;
     margin: 50px;
 }
 
