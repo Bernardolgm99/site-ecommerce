@@ -1,6 +1,6 @@
 body {
     background-color: rgb(0, 0, 0, 0.1);
-    background-image: url("galery/background_20.png");
+    background-image: url("../galery/background_20.png");
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
@@ -83,7 +83,6 @@ article {
     background-color: rgba(253, 170, 190, 0.952);
     -webkit-transition: 0.5s;
     transition: 0.5s;
-    border: none;
     padding: 7px;
     border: 3px solid white
 }
@@ -94,12 +93,6 @@ article {
 
 #btn_cart:active {
     transform: scale(0.95);
-}
-
-.old_price {
-    padding-left: 70px;
-    text-decoration: line-through;
-    color: rgb(120, 52, 141);
 }
 
 .box p{
@@ -121,5 +114,5 @@ article {
 .aside p{
     font-size: 25px;
     text-align: center;
-    padding-left: 220px;
+    padding-left: 300px;
 }

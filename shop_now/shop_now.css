@@ -1,0 +1,18 @@
+h1 {
+    font-size: 60px;
+    margin-top: 55px;
+    margin-bottom: 20px;
+}
+
+article {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 30px;
+}
+
+article a {
+    height: auto;
+}
