@@ -178,7 +178,8 @@ h2 {
 }
 
 .img_product img{
-    height: 200px;
+    height: 150px;
+    margin-top: 40px
 }
 
 .highlight_product button {

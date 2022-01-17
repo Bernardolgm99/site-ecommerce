@@ -21,7 +21,7 @@ article {
     flex-wrap: wrap;
     margin: auto;
     margin-top: 100px;
-    box-shadow: 0px 0px 20px 1px black;
+    box-shadow: 0px 0px 25px 1px rgb(134, 134, 134);
     background-color: rgba(255, 211, 237, 0.5);
     border-radius: 20px;
 }
@@ -31,10 +31,12 @@ article {
     width: 50%;
     margin: auto;
     justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 60px
 }
 
 .box {
-    height: 30vh;
+    height: 60vh;
     width: 50%;
     display: flex;
     align-self: center;
@@ -47,31 +49,28 @@ article {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    background-color: rgba(255, 169, 189, 0.952);
+    background-color: rgba(255, 169, 189, 0.473);
     border-radius: 20px;
     width: 70%;
     padding-left: 40px;
     padding-bottom: 150px;
     padding-top: 30px;
+    margin-top: 140px;
+    border: 3px solid white
 }
 
 .quantity {
     display: flex;
     line-height: 50px;
-}
-
-.btn_add {
-    display: flex;
-
+    margin-top: 15px;
 }
 
 .price {
     display: flex;
-    width: 70%;
+    width: 90%;
     height: 30vh;
-    padding-top: 50px;
+    padding-top: 20px;
     justify-content: space-between;
-
 }
 
 #btn_cart {
@@ -81,10 +80,12 @@ article {
     color: rgb(0, 0, 0);
     font-family: 'Dongle', sans-serif;
     font-size: 25px;
-    background-color: rgba(255, 134, 163, 0.952);
+    background-color: rgba(253, 170, 190, 0.952);
     -webkit-transition: 0.5s;
     transition: 0.5s;
     border: none;
+    padding: 7px;
+    border: 3px solid white
 }
 
 #btn_cart:hover {
@@ -96,9 +97,9 @@ article {
 }
 
 .old_price {
-    padding-left: 60px;
+    padding-left: 70px;
     text-decoration: line-through;
-    color: rgb(170, 6, 6);
+    color: rgb(120, 52, 141);
 }
 
 .box p{
@@ -110,7 +111,7 @@ article {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    background-color: rgba(255, 169, 189, 0.952);
+    background-color: rgba(255, 169, 189, 0.473);
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
     width: 100%;
@@ -119,4 +120,6 @@ article {
 
 .aside p{
     font-size: 25px;
+    text-align: center;
+    padding-left: 220px;
 }
