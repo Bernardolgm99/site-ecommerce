@@ -154,6 +154,10 @@ header {
     text-align: center;
 }
 
+.highlight_product a {
+    color: black;
+}
+   
 h2 {
     font-size: 60px;
     margin-top: 55px;

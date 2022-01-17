@@ -121,5 +121,5 @@ article {
 .aside p{
     font-size: 25px;
     text-align: center;
-    padding-left: 220px;
+    width: 100%;
 }
