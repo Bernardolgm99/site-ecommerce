@@ -1,7 +1,7 @@
 body{
     height: 100%;
     margin: 50px;
-    background-image: url("galery/background.png");
+    background-image: url("galery/background_20.png");
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
@@ -32,7 +32,7 @@ form {
 }
 
 #grid .grid-item{
-    background-color: rgb(255, 158, 168);
+    background-color: rgb(255, 185, 192);
     display: flex;
     justify-items: center;
     align-items: center;
