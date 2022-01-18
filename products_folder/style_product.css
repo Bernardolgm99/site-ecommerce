@@ -1,6 +1,6 @@
 body {
     background-color: rgb(0, 0, 0, 0.1);
-    background-image: url("galery/background_20.png");
+    background-image: url("../galery/background_20.png");
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
@@ -121,5 +121,5 @@ article {
 .aside p{
     font-size: 25px;
     text-align: center;
-    padding-left: 220px;
+    width: 100%;
 }
