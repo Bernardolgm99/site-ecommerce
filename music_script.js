@@ -17,4 +17,3 @@ function play(){
         document.getElementById("btn_play").src="galery/play_btn.png" 
     }
 }
-
