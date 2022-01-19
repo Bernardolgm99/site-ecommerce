@@ -287,6 +287,11 @@ h2 {
     transform: translateY(2px);
 }
 
+.sale {
+    border: 5px solid rgba(194, 0, 81, 0.678);
+    border-radius: 5px;
+}
+
 /* CATALOG REGION*/
 
 #catalog_sales {

@@ -99,7 +99,7 @@ article {
 .old_price {
     padding-left: 70px;
     text-decoration: line-through;
-    color: rgb(120, 52, 141);
+    color: rgba(194, 0, 81, 0.678);
 }
 
 .box p{
