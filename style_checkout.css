@@ -1,6 +1,6 @@
 body {
     background-color: rgb(0, 0, 0, 0.1);
-    background-image: url("galery/background.png");
+    background-image: url("galery/background_20.png");
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
@@ -18,20 +18,22 @@ article {
 
 table {
     width: 100%;
-    background: black;
+    background: rgba(0, 0, 0, 0.664);
     color: white;
     text-align: center;
     border-collapse: collapse;
-    font-size:25px;
+    font-size:35px;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
 }
 
 table tbody tr {
-    border-top: 1px solid white;
+    border-top: 2px solid white;
 }
 
 
 table tbody tr:first-child th {
-    background-color: rgb(230, 86, 122);
+    background-color: rgba(255, 144, 172, 0.432);
     height: 60px;
 }
     
@@ -47,4 +49,5 @@ table tbody tr:first-child th:last-child {
 
 table img {
     height:180px;
+    margin-top:20px
 }
