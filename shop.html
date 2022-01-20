@@ -27,11 +27,16 @@
                 </ul>
             </div>
             <div class="check_out">
-                <a href="perfil.html"><img src="galery/perfil-user.png"></a>
-                <a href="checkout.html"><img src="galery/cart.png"></a>
+                <a href="perfil.html"><img class="icon_img" src="galery/perfil-user.png"></a>
+                <div class="dropdown">
+                    <a href="checkout.html"><img class="icon_img" src="galery/cart.png"></a>
+                    <div id="dropdown-content">
+                    </div>
+                </div>
             </div>
             <div class="gif">
-                <audio src="/song/Electro Swing  Jamie Berry feat. Octavia Rose - Light Up the Night.mp3" id="music"></audio>
+                <audio src="/song/Electro Swing  Jamie Berry feat. Octavia Rose - Light Up the Night.mp3"
+                    id="music"></audio>
                 <button id="player_off" onclick="play()"><img src="galery/play_btn.png" id="btn_play"></button>
             </div>
         </nav>
@@ -61,20 +66,17 @@
                 <label for="ckb_tea">Tea</label>
             </div>
         </aside>
-        <article>
-            <div class="highlight_product">
-                <div class = "sale">
+        <article id="highlight">
+            <div class="highlight_product sale">
                 <a href="products_folder/coffee_arabica.html">
                     <div class="img_product">
                         <img src="products_galery/coffee_arabica.png">
                     </div>
                     <div class="description_product">
                         <div class="price_product">Espresso Arabica</div>
-                        <p>Price: 10,00 €</p>
+                        <p>Price: 10,00€</p>
                     </div>
                 </a>
-                    <button class="add_cheakout"><img src="/galery/shopping-cart.png">Add To Basket</button>
-                </div>
             </div>
             <div class="highlight_product">
                 <a href="products_folder/coffee_brazil.html">
@@ -83,10 +85,9 @@
                     </div>
                     <div class="description_product">
                         <div class="price_product">Brazil</div>
-                        <p>Price: 8,40 €</p>
+                        <p>Price: 8,40€</p>
                     </div>
                 </a>
-                    <button class="add_cheakout"><img src="/galery/shopping-cart.png">Add To Basket</button>
             </div>
             <div class="highlight_product">
                 <a href="products_folder/coffee_espresso.html">
@@ -95,10 +96,9 @@
                     </div>
                     <div class="description_product">
                         <div class="price_product">Espresso</div>
-                        <p>Price: 8,90 €</p>
+                        <p>Price: 8,90€</p>
                     </div>
                 </a>
-                    <button class="add_cheakout"><img src="/galery/shopping-cart.png">Add To Basket</button>
             </div>
             <div class="highlight_product">
                 <a href="products_folder/coffee_french.html">
@@ -107,10 +107,9 @@
                     </div>
                     <div class="description_product">
                         <div class="price_product">French Roast</div>
-                        <p>Price: 7,70 €</p>
+                        <p>Price: 7,70€</p>
                     </div>
                 </a>
-                    <button class="add_cheakout"><img src="/galery/shopping-cart.png">Add To Basket</button>
             </div>
             <div class="highlight_product">
                 <a href="products_folder/coffee_java.html">
@@ -119,24 +118,20 @@
                     </div>
                     <div class="description_product">
                         <div class="price_product">Indonesia Java</div>
-                        <p>Price: 9,00 €</p>
+                        <p>Price: 9,00€</p>
                     </div>
                 </a>
-                    <button class="add_cheakout"><img src="/galery/shopping-cart.png">Add To Basket</button>
             </div>
-            <div class="highlight_product">
-                <div class = "sale">
+            <div class="highlight_product sale">
                 <a href="products_folder/product.html">
                     <div class="img_product">
                         <img src="products_galery/tea_berry.png">
                     </div>
                     <div class="description_product">
                         <div class="price_product">Berry Burst Infusion</div>
-                        <p>Price: 3,50 €</p>
+                        <p>Price: 3,50€</p>
                     </div>
                 </a>
-                    <button class="add_cheakout"><img src="/galery/shopping-cart.png">Add To Basket</button>
-                </div>
             </div>
             <div class="highlight_product">
                 <a href="products_folder/tea_black.html">
@@ -145,10 +140,9 @@
                     </div>
                     <div class="description_product">
                         <div class="price_product">Indian Chai Black Tea</div>
-                        <p>Price: 4,20 €</p>
+                        <p>Price: 4,20€</p>
                     </div>
                 </a>
-                    <button class="add_cheakout"><img src="/galery/shopping-cart.png">Add To Basket</button>
             </div>
             <div class="highlight_product">
                 <a href="products_folder/tea_green.html">
@@ -157,24 +151,20 @@
                     </div>
                     <div class="description_product">
                         <div class="price_product">Chai Green Tea</div>
-                        <p>Price: 4,20 €</p>
+                        <p>Price: 4,20€</p>
                     </div>
                 </a>
-                    <button class="add_cheakout"><img src="/galery/shopping-cart.png">Add To Basket</button>
             </div>
-            <div class="highlight_product">
-                <div class = "sale">
+            <div class="highlight_product sale">
                 <a href="products_folder/tea_orange.html">
                     <div class="img_product">
                         <img src="products_galery/tea_orange.png">
                     </div>
                     <div class="description_product">
                         <div class="price_product">White Tea With Orange</div>
-                        <p>Price: 3,50 €</p>
+                        <p>Price: 3,50€</p>
                     </div>
                 </a>
-                    <button class="add_cheakout"><img src="/galery/shopping-cart.png">Add To Basket</button>
-                </div>
             </div>
             <div class="highlight_product">
                 <a href="products_folder/tea_rasp.html">
@@ -183,10 +173,9 @@
                     </div>
                     <div class="description_product">
                         <div class="price_product">White Tea With Raspberry</div>
-                        <p>Price: 4,20 €</p>
+                        <p>Price: 4,20€</p>
                     </div>
                 </a>
-                    <button class="add_cheakout"><img src="/galery/shopping-cart.png">Add To Basket</button>
             </div>
             <div class="highlight_product">
                 <a href="products_folder/tea_straw.html">
@@ -195,24 +184,20 @@
                     </div>
                     <div class="description_product">
                         <div class="price_product">Green Tea & Strawberry</div>
-                        <p>Price: 4,20 €</p>
+                        <p>Price: 4,20€</p>
                     </div>
                 </a>
-                    <button class="add_cheakout"><img src="/galery/shopping-cart.png">Add To Basket</button>
             </div>
-            <div class="highlight_product">
-                <div class = "sale">
+            <div class="highlight_product sale">
                 <a href="products_folder/boba_blueberry.html">
                     <div class="img_product">
                         <img src="products_galery/boba_blueberry.png">
                     </div>
                     <div class="description_product">
                         <div class="price_product">Blueberry Pearls</div>
-                        <p>Price: 10,00 €</p>
+                        <p>Price: 10,00€</p>
                     </div>
                 </a>
-                    <button class="add_cheakout"><img src="/galery/shopping-cart.png">Add To Basket</button>
-                </div>
             </div>
             <div class="highlight_product">
                 <a href="products_folder/boba_lychee.html">
@@ -221,10 +206,9 @@
                     </div>
                     <div class="description_product">
                         <div class="price_product">Lychee Pearls</div>
-                        <p>Price: 13,90 €</p>
+                        <p>Price: 13,90€</p>
                     </div>
                 </a>
-                    <button class="add_cheakout"><img src="/galery/shopping-cart.png">Add To Basket</button>
             </div>
             <div class="highlight_product">
                 <a href="products_folder/boba_mango.html">
@@ -233,24 +217,20 @@
                     </div>
                     <div class="description_product">
                         <div class="price_product">Mango Pearls</div>
-                        <p>Price: 13,90 €</p>
+                        <p>Price: 13,90€</p>
                     </div>
                 </a>
-                    <button class="add_cheakout"><img src="/galery/shopping-cart.png">Add To Basket</button>
             </div>
-            <div class="highlight_product">
-                <div class = "sale">
+            <div class="highlight_product sale">
                 <a href="products_folder/boba_passion.html">
                     <div class="img_product">
                         <img src="products_galery/boba_passionfruit.png">
                     </div>
                     <div class="description_product">
                         <div class="price_product">Passion Fruit Pearls</div>
-                        <p>Price: 10,00 €</p>
+                        <p>Price: 10,00€</p>
                     </div>
                 </a>
-                    <button class="add_cheakout"><img src="/galery/shopping-cart.png">Add To Basket</button>
-                </div>
             </div>
             <div class="highlight_product">
                 <a href="products_folder/boba_staw.html">
@@ -259,10 +239,9 @@
                     </div>
                     <div class="description_product">
                         <div class="price_product">Strawberry Pearls</div>
-                        <p>Price: 13,90 €</p>
+                        <p>Price: 13,90€</p>
                     </div>
                 </a>
-                    <button class="add_cheakout"><img src="/galery/shopping-cart.png">Add To Basket</button>
             </div>
         </article>
     </div>
@@ -313,6 +292,7 @@
         </div>
     </footer>
     <script src="music_script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

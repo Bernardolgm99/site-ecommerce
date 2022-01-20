@@ -32,7 +32,6 @@ header {
     width: 100%;
 }
 
-
 #menu_bar {
     z-index: 2;
     left: 0;
@@ -113,13 +112,14 @@ header {
     margin-left: 10px;
     align-self: flex-end;
     justify-content: center;
+    height: 55px;
 }
 
 #menu_bar .check_out a {
     height: 55px;
 }
 
-#menu_bar .check_out a img {
+#menu_bar .check_out a .icon_img {
     border-radius: 10px;
     padding-left: 10px;
     padding: 12px;
@@ -132,7 +132,7 @@ header {
     background-color: rgba(0, 0, 0, 0);
 }
 
-#menu_bar .check_out a img:hover {
+#menu_bar .check_out a .icon_img:hover {
     background-color: rgb(172, 97, 122);
 }
 
@@ -166,18 +166,62 @@ header {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 200px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    min-width: 300px;
     z-index: 1;
     border-radius: 10px;
 }
   
 /* Links inside the dropdown */
 #dropdown-content a {
-color: black;
-padding: 12px 16px;
-text-decoration: none;
-display: flex;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#dropdown-content p{
+    margin-left: 15px;
+}
+
+#dropdown-content a{
+    border: 0px;
+}
+
+#dropdown-content img {
+    border: 0px solid black;
+}
+
+#dropdown-content .img_delete {
+    height: 10px;
+    width: 10px;
+    padding-left: 10px;
+}
+
+#dropdown-content .delete {
+    padding: 30px;
+    padding-right: 50px;
+    justify-self: right;
+    height: 10px;
+    width: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.div_drop {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border-radius: 10px;
+}
+
+.div_drop:hover {
+    background-color: rgb(219, 219, 219);
+}
+
+#dropdown-content a:hover {
+    background-color: rgb(212, 212, 212);
 }
 
 /* Change color of dropdown links on hover */
@@ -295,6 +339,7 @@ h2 {
 }
 
 /* CATALOG REGION*/
+
 
 #catalog_sales {
     width: 75%;
