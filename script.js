@@ -15,7 +15,7 @@ function create_button() {
             let link_checkout = document.createElement("a");
             let img_checkout = document.createElement("img");
             let p_checkout = document.createElement("p");
-            p_checkout.append(div_product.children[0].children[1].children[0].innerHTML); // + div_product.children[0].children[0].children[1].children[1].innerHTML);
+            p_checkout.append(div_product.children[0].children[1].children[0].innerText + " " + div_product.children[0].children[1].children[1].innerText);
             img_checkout.src = div_product.children[0].children[0].children[0].src;
             link_checkout.append(img_checkout);
             link_checkout.append(p_checkout);
