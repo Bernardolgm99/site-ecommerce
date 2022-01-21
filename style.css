@@ -137,7 +137,6 @@ header {
 }
 
 #menu_bar .gif {
-    opacity: 0%; /* tirar a opacidade depois */ 
     height: 10px;
     padding: 10px;
     margin: auto;
