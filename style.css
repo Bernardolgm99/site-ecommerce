@@ -391,7 +391,7 @@ h2 {
 
 footer {
     width: 100%;
-    height: auto;
+    height: 31vh;
     background-color: rgba(255, 181, 198, 0.842);
     box-shadow: 0px 0px 25px 1px rgb(134, 134, 134);
     font-family: Arial, Helvetica, sans-serif;
